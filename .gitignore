@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data
+data/*
+!data/README.md
+*.csv
+*.xlsx
+
+# Trained Models
+*.pkl
+*.joblib
